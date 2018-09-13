@@ -1,0 +1,63 @@
+﻿.header{
+	border-bottom-style: solid;
+}
+.logo{
+	width:300px;
+	height:30px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	padding-bottom:2px;
+	
+}
+h1 {
+	text-decoration: underline;
+}
+h3{
+	font-size: 30px;
+	text-align: center;
+	color:white;
+}
+.GreyPic{
+	width: 450px;
+	height: 100px;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	width: calc(100% /3);
+	padding-bottom:2%;
+}
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+.contactParent{
+	width: 100%;
+	background: grey;
+	padding-top:0px;
+	font-size:20px;
+}
+.contactChild{
+	padding-top:0%;
+	padding-bottom:2.5%;
+	color: white;
+	margin-left: 33.33%;
+}
+.email{
+	width: 600px;
+}
+.subject{
+	width: 600px;
+}
+.message{
+	width: 600px;
+	height: 100px;
+}
+
+.submit{
+	background:black;
+	color:white;
+}
